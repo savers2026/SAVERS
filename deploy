@@ -1,0 +1,76 @@
+.......................................
+ ### No Input file present opening the main GUI### 
+........................................
+Error using load
+Unable to find file or directory '..\conf\UserInputs.mat'.
+
+Error in UI_HSAVERS_FirstGUI/loadinputfile_previous (line 949)
+
+Error in UI_HSAVERS_FirstGUI>@(load_val_last,event)loadinputfile_previous(load_val_last) (line 293)
+
+Error using matlab.ui.control.internal.controller.ComponentController/executeUserCallback (line 427)
+Error while evaluating Button PrivateButtonPushedFcn.
+
+Error using save
+Cannot create 'UserInputs.mat' because '..\conf' does not exist.
+
+Error in UI_HSAVERS_FirstGUI/saveduserinput (line 614)
+
+Error in UI_HSAVERS_FirstGUI>@(continuebutton,event)saveduserinput(fig) (line 292)
+
+Error using matlab.ui.control.internal.controller.ComponentController/executeUserCallback (line 427)
+Error while evaluating Button PrivateButtonPushedFcn.
+
+Error using save
+Cannot create 'UserInputs.mat' because '..\conf' does not exist.
+
+Error in UI_HSAVERS_FirstGUI/saveduserinput (line 614)
+
+Error in UI_HSAVERS_FirstGUI>@(continuebutton,event)saveduserinput(fig) (line 292)
+
+Error using matlab.ui.control.internal.controller.ComponentController/executeUserCallback (line 427)
+Error while evaluating Button PrivateButtonPushedFcn.
+
+Error using save
+Cannot create 'UserInputs.mat' because '..\conf' does not exist.
+
+Error in UI_HSAVERS_FirstGUI/saveduserinput (line 614)
+
+Error in UI_HSAVERS_FirstGUI>@(continuebutton,event)saveduserinput(fig) (line 292)
+
+Error using matlab.ui.control.internal.controller.ComponentController/executeUserCallback (line 427)
+Error while evaluating Button PrivateButtonPushedFcn.
+
+Error using save
+Cannot create 'UserInputs.mat' because '..\conf' does not exist.
+
+Error in UI_HSAVERS_FirstGUI/saveduserinput (line 614)
+
+Error in UI_HSAVERS_FirstGUI>@(continuebutton,event)saveduserinput(fig) (line 292)
+
+Error using matlab.ui.control.internal.controller.ComponentController/executeUserCallback (line 427)
+Error while evaluating Button PrivateButtonPushedFcn.
+
+Error using save
+Cannot create 'UserInputs.mat' because '..\conf' does not exist.
+
+Error in UI_HSAVERS_FirstGUI/saveduserinput (line 614)
+
+Error in UI_HSAVERS_FirstGUI>@(continuebutton,event)saveduserinput(fig) (line 292)
+
+Error using matlab.ui.control.internal.controller.ComponentController/executeUserCallback (line 427)
+Error while evaluating Button PrivateButtonPushedFcn.
+
+Error using save
+Cannot create 'UserInputs.mat' because '..\conf' does not exist.
+
+Error in UI_HSAVERS_FirstGUI/saveduserinput (line 614)
+
+Error in UI_HSAVERS_FirstGUI>@(continuebutton,event)saveduserinput(fig) (line 292)
+
+Error using matlab.ui.control.internal.controller.ComponentController/executeUserCallback (line 427)
+Error while evaluating Button PrivateButtonPushedFcn.
+
+.......................................
+ ### SIMULATION STOPPED BY THE USER ### 
+........................................

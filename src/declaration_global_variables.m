@@ -1,0 +1,43 @@
+%% declaration of global variables
+    global SensorNoise;
+    global RxAnswers;
+    global TxAnswers;
+    global SimulationSetting;
+    global inputprevious;
+    global mode1;
+    global signal;
+    global degreeofcoherence;
+    global OperationMode;
+    global Txswitch;
+    global Rxswitch_Zenith;
+    global Rxswitch_Nadir;
+    global tag_1;
+    global orbitdataHG1;
+    global orbitdataHG2;
+    global data_directory;
+    global outfile_directory;
+    global soilmoisture;
+    global forest;
+    global freeze_thaw;
+    global wetlands;
+    global inputprevious_last;
+    global nadirantennadataHG1;
+    global zenithantennadataHG1;
+    global OutputPlot;
+    global Sampling;
+    global Sampling_all;
+    global Sampling_all_Text;
+    global OutputPlotText;
+    global mode0;
+    global RUNID;
+    global Txswitch;
+    global Rxswitch_Zenith;
+    global Rxswitch_Nadir;
+    %added by Laura
+    global presentLogInputsFilename
+    global bioGeoInputs
+    global bioGeoInputsVariable
+    %added by ansha
+    global satellite;
+    global nadirantennadataHG2;
+    global zenithantennadataHG2;
