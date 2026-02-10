@@ -467,7 +467,7 @@ for i = 1:Nruns
     %Note: in Monte Carlo/Coarse Mode we minimize this size
 
     if      tag.CoarseMode == 0
-            geoSYSp.Xmax_Range =  round(sqrt(2*2.99792458e2*(geoSYSp.Dly_RNGmax)*TRAp.Rxlocal(3)*cosd(TRAp.incAngle_enuRot))/cosd(TRAp.incAngle_enuRot)^2/1000)*1000;
+            geoSYSp.Xmax_Range =  round(sqrt(2*2.99792458e2*(geoSYSp.Dly_RNGmax)*abs(TRAp.Rxlocal(3))*cosd(TRAp.incAngle_enuRot))/cosd(TRAp.incAngle_enuRot)^2/1000)*1000;
     elseif  tag.CoarseMode == 1
             geoSYSp.Xmax_Range = geoSYSp.AsideMC/2;
     end    
