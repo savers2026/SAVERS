@@ -123,4 +123,8 @@ end
 
 landCoverMap(:,:,3)=coverMapOrig;
 
+if ~exist('change_dominant_to_land_flag', 'var')
+    change_dominant_to_land_flag = 0;
+end
+
 end
